@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
-    <!-- jQuery -->
+    <meta name="description" content="My portfolio">
+    <meta name="keywords" content="portfolio,about me">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
 <body>
 <script>
@@ -33,16 +33,6 @@
             document.getElementById("header").style.height="100px";
         }
     }
-        $(window).on("load resize scroll", function() {
-            $(".background_move").each(function() {
-                var windowTop = $(window).scrollTop();
-                var elementTop = $(this).offset().top;
-                var leftPosition = windowTop - elementTop;
-                $(this)
-                    .find(".move")
-                    .css({ left: leftPosition });
-            });
-        });
 </script>
 <div id="header" class="flex-container">
     <a class="home" href="#about_me" id="cloud1"></a>
@@ -62,8 +52,8 @@
                     <span id="help">
                     <span id="ime">Denica Kjrovezir</span><br>
                     <span style="font-weight: bold">Student at Ss. Cyril and Methodius University Skopje Faculty
-                        of Computer Science and Engineering</span></br></span>
-                    <img src="denadena.png" id="me">
+                        of Computer Science and Engineering</span><br></span>
+                    <img alt="me" src="denadena.png" id="me">
                         <span id="float2">A hardworking student of excellent academic standard who possesses a genuine zeal for learning, highly motivated and attentive; Keen on the pursuit of
                         knowledge, growing and excelling, particularly in the vast field of Computer Science; A consistent worker and is capable of working independently; Full of enthusiasm and confidence in being a useful person to contribute to society;</span>
                 </p>
@@ -79,7 +69,7 @@
                     </div>
                         <div id="sun2">
 
-                            <p id="elementary">Elementary School: <a style="text-decoration: none;color: white" target="_blank" href="http://oulazoangelovski.com.mk/">OOU Lazo Angelovski</a></br>
+                            <p id="elementary">Elementary School: <a style="text-decoration: none;color: white" target="_blank" href="http://oulazoangelovski.com.mk/">OOU Lazo Angelovski</a><br>
                                Graduated with 5/5 GPA<br>2007-2016
 
                            </p>
@@ -104,13 +94,13 @@
                     <div class="cloud_3" class="move">
                     </div>
                     <div id="sun3">
-                        <img id="cplus" src="icon-14.png">
-                        <img id="c" src="icon-15.png">
-                        <img id="ps" src="icon-16.png">
-                        <img id="css" src="icon-17.png">
-                        <img id="html" src="icon-18.png">
-                        <img id="mo" src="icon-19.png">
-                        <img src="icon-21.png" id="js">
+                        <img alt="cplus" id="cplus" src="icon-14.png">
+                        <img alt="c" id="c" src="icon-15.png">
+                        <img alt="photoshop" id="ps" src="icon-16.png">
+                        <img alt="css" id="css" src="icon-17.png">
+                        <img alt="html" id="html" src="icon-18.png">
+                        <img alt="microsoft office" id="mo" src="icon-19.png">
+                        <img alt="javascript" src="icon-21.png" id="js">
                     </div>
                     <div class="cloud_4" class="move">
                     </div>
@@ -140,12 +130,12 @@
                     <div class="cloud_3" class="move">
                     </div>
                     <div id="sun5">
-                        <img src="contact-22.png" id="adresa"><p id="text_adresa">Skopje, Aerodrom, Vidoe <br> Smilevski Bato 83/03</p>
-                        <img src="contact-24.png" id="mail"><p id="text_mail">dkorvezir@gmail.com</p>
-                        <img src="contact-23.png" id="tel"><p id="text_tel">+389 78 705 224</p>
+                        <img alt="location" src="contact-22.png" id="adresa"><p id="text_adresa">Skopje, Aerodrom, Vidoe <br> Smilevski Bato 83/03</p>
+                        <img alt="mail" src="contact-24.png" id="mail"><p id="text_mail">dkorvezir@gmail.com</p>
+                        <img alt="telephone" src="contact-23.png" id="tel"><p id="text_tel">+389 78 705 224</p>
                         <a target="_blank" href="https://www.instagram.com/denica_k/" id="insta"></a><p id="text_insta">denica_k</p>
                         <a target="_blank" href="https://www.facebook.com/denica.korvezir" id="fb"></a><p id="text_fb">Denica Korvezir</p>
-                        <img src="copyright-27.png" id="copy"><p id="text_copy">Designed by Denica Kjorvezir</p>
+                        <img alt="copyright" src="copyright-27.png" id="copy"><p id="text_copy">Designed by Denica Kjorvezir</p>
                     </div>
                     <div class="cloud_4" class="move">
                     </div>
