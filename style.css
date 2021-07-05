@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+.flex-container{
+    display: flex;
+    width: available;
+    height: 100px;
+    padding-top: 30px;
+}
+body{
+    height: 2000px;
+    background-color: white;
+    margin:0;
+    overflow-x: hidden;
+}
+#header{
+    margin-left: 13%;
+    padding-top: 0;
+    background-color: rgba(0,0,0,0);
+    position: fixed;
+    z-index: 100;
+    font-size: 50px;
+    top: 0;
+    width: 100%;
+    transition: 0.2s;
+}
+#header a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#cloud1{
+    display: inline-block;
+    width: 15vw;
+    height: 20vh;
+    background-size: 100% 85%;
+    background-repeat: no-repeat;
+    background-image: url("clouds-07.png");
+}
+#cloud2{
+    display: inline-block;
+    width: 15vw;
+    height: 20vh;
+    background-size: 100% 85%;
+    background-repeat: no-repeat;
+    background-image: url("clouds-08.png");
+}#cloud3{
+     display: inline-block;
+     width: 15vw;
+     height: 20vh;
+     background-size: 100% 85%;
+     background-repeat: no-repeat;
+    z-index: 100;
+     background-image: url("clouds-11.png");}
+#cloud4{
+       z-index: 50;
+       display: inline-block;
+    width: 15vw;
+    height: 20vh;
+    background-size: 100% 85%;
+      background-repeat: no-repeat;
+      background-image: url("clouds-10.png");}
+#cloud5{
+       display: inline-block;
+    width: 15vw;
+    height: 20vh;
+    background-size: 100% 85%;
+       background-repeat: no-repeat;
+       background-image: url("clouds-09.png");}
+#body{
+    width: 100%;
+}
+#about_me{
+    max-width: 100%;
+    min-height: 100vh;
+    width: 100%;
+    height: 180vh;
+    position: relative;
+    background-color: #3a3b50;
+    background-image: url("wave1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 97%;
+
+}
+.cloud_1{
+    display: inline-block;
+    background-image: url("cloud_1-12.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 55%;
+    right: 70%;
+    height: 30%;
+    width: 25%;
+    position: fixed;
+}
+.cloud_3{
+    display: inline-block;
+    background-image: url("cloud_1-12.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: 55%;
+    right: 70%;
+    height: 30%;
+    width: 25%;
+    position: fixed;
+}
+.cloud_2{
+    display: inline-block;
+    background-image: url("cloud_1-13.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 20%;
+    left: 70%;
+    height: 30%;
+    width: 25%;
+    position: absolute;
+}
+.cloud_4{
+    display: inline-block;
+    background-image: url("cloud_1-13.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 20%;
+    left: 70%;
+    height: 30%;
+    width: 25%;
+    position: fixed;
+}
+.glavno{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+}
+#sun1{
+    position: absolute;
+    width: 100vw;
+    height: 130vh;
+    background-image: url("sun1-06.png");
+    background-size: 85% 86%;
+    background-repeat: no-repeat;
+    background-position: 56% -24%;
+}
+.mask{
+    mask:url("WaveMask.png");
+    mask-size: cover;
+    -webkit-mask: url("WaveMask.png");
+    -webkit-mask-size: cover;
+    mask-repeat:no-repeat;
+    -webkit-mask-repeat:no-repeat;
+    -webkit-mask-position: 0 97%;
+    width: 100%;
+    height: 100%;
+}
+#education{
+    background-color: #afdcf5;
+    height: 180vh;
+    width: 100%;
+    position: relative;
+    background-image: url("wave2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 97%;
+}
+
+#sun2{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 130vh;
+    background-image: url("sun2-06.png");
+    background-size: 85% 86%;
+    background-repeat: no-repeat;
+    background-position: 56% -24%;
+}
+#skills{
+    background-color: #4f817f;
+    height: 180vh;
+    width: 100%;
+    position: relative;
+    background-image: url("wave3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 97%;
+}
+
+#sun3{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 130vh;
+    background-image: url("sun3-06.png");
+    background-size: 85% 86%;
+    background-repeat: no-repeat;
+    background-position: 56% -24%;
+}
+#projects{
+    background-color: #f1c39b;
+    height: 180vh;
+    width: 100%;
+    position: relative;
+    background-image: url("wave4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 97%;
+}
+
+#sun4{
+    color: #f1c39b;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 130vh;
+    background-image: url("sun4-06.png");
+    background-size: 85% 86%;
+    background-repeat: no-repeat;
+    background-position: 56% -24%;
+}
+#contact{
+    background-color: #585b72;
+    height: 180vh;
+    width: 100%;
+    position: relative;
+    background-image: url("wave5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 97%;
+}
+
+#sun5{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 130vh;
+    background-image: url("sun5-06.png");
+    background-size: 85% 86%;
+    background-repeat: no-repeat;
+    background-position: 56% -24%;
+}
+#sun1 p{
+    font-family: 'Otomanopee One', sans-serif;
+    color: #3a3b50;
+    margin-top: 8%;
+    width: 40%;
+    text-align: center;
+    margin-left: 31%;
+
+}
+#me{
+    float:right;
+    height: 20%;
+    width: 33%;
+    display: inline-block;
+}
+#float2{
+    margin-left: 0%;
+    text-align: right;
+    width: 67%;
+    margin-top: 7%;
+    float: left;
+    display: inline-block;
+    height: 16%;
+}
+#ime{
+    text-align: right;
+    font-size: 3em;
+}
+#elementary{
+    color: white;
+    font-size: 14px;
+    font-family: 'Otomanopee One', sans-serif;
+    height: 17%;
+    width: 14%;
+    padding-top: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    position: relative;
+    top: -1%;
+    left: 28%;
+    text-align: center;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(krugche-14.png);
+}
+
+
+#highschool{
+    color: white;
+    font-size: 14px;
+    font-family: 'Otomanopee One', sans-serif;
+    height: 20%;
+    width: 15%;
+    padding-top: 4%;
+    padding-left: 1%;
+    padding-right: 1%;
+    position: relative;
+    top: 7%;
+    left: 41%;
+    text-align: center;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(krugche-14.png);
+
+}
+#university{
+    color: white;
+    font-size: 14px;
+    font-family: 'Otomanopee One', sans-serif;
+    height: 23%;
+    width: 17%;
+    padding-top: 4%;
+    padding-left: 1%;
+    padding-right: 1%;
+    position: relative;
+    top: 40%;
+    left: 7%;
+    text-align: center;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 99% 100%;
+    background-image: url(krugche-14.png);
+}
+#help {
+    width: 94%;
+    margin-left: 3%;
+    margin-bottom: -1%;
+    display: block;
+}
+#cplus{
+    position: relative;
+    width: 16%;
+    height: 26%;
+    top: 21%;
+    left: 25%;
+}
+#c{
+    position: relative;
+    top: -1%;
+    left: 16%;
+    width: 14%;
+    height: 22%;
+}
+#ps{
+    top: 26%;
+    left: 31%;
+    position: relative;
+    width: 16%;
+    height: 26%;
+}
+#css{
+    top: 44%;
+    left: -11%;
+    position: relative;
+    width: 17%;
+    height: 27%;
+}
+#html{
+    top: 50%;
+    left: -12%;
+    position: relative;
+    width: 17%;
+    height: 27%;
+}
+#mo{
+    top: -2%;
+    left: -24%;
+    position: relative;
+    width: 12%;
+    height: 19%;
+}
+#js{
+    width: 17%;
+    height: 27%;
+    position: relative;
+    top: -9%;
+    left: 44%;
+}
+#cyber{
+    color: white;
+    font-size: 14px;
+    font-family: 'Otomanopee One', sans-serif;
+    height: 17%;
+    width: 14%;
+    padding-top: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    position: relative;
+    top: 4%;
+    left: 28%;
+    text-align: center;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 99% 100%;
+    background-image: url("krug-20.png");
+}
+#java{
+    color: white;
+    font-size: 14px;
+    font-family: 'Otomanopee One', sans-serif;
+    height: 15%;
+    width: 12%;
+    padding-top: 4%;
+    padding-left: 1%;
+    padding-right: 1%;
+    position: relative;
+    top: 4%;
+    left: 27%;
+    text-align: center;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 99% 100%;
+    background-image: url("krug-20.png");
+}
+#skillspass{
+    color: white;
+    font-size: 14px;
+    font-family: 'Otomanopee One', sans-serif;
+    height: 12%;
+    width: 9%;
+    padding-top: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
+    position: relative;
+    top: 5%;
+    left: 31%;
+    text-align: center;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 99% 100%;
+    background-image: url("krug-20.png");
+}
+#mep{
+    color: white;
+    font-size: 14px;
+    font-family: 'Otomanopee One', sans-serif;
+    height: 19%;
+    width: 15%;
+    padding-top: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    position: relative;
+    top: 34%;
+    left: -16%;
+    text-align: center;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 99% 100%;
+    background-image: url("krug-20.png");
+}
+#gogreen{
+    color: white;
+    font-size: 14px;
+    font-family: 'Otomanopee One', sans-serif;
+    height: 15%;
+    width: 13%;
+    padding-top: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    position: relative;
+    top: 24%;
+    left: 2%;
+    text-align: center;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 99% 100%;
+    background-image: url("krug-20.png");
+}
+#bugaria{
+    color: white;
+    font-size: 14px;
+    font-family: 'Otomanopee One', sans-serif;
+    height: 18%;
+    width: 15%;
+    padding-top: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    position: relative;
+    top: 32%;
+    left: -30%;
+    text-align: center;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 99% 100%;
+    background-image: url("krug-20.png");
+}
+#ungarija{
+    color: white;
+    font-size: 14px;
+    font-family: 'Otomanopee One', sans-serif;
+    height: 16%;
+    width: 11%;
+    padding-top: 3%;
+    padding-left: 1%;
+    padding-right: 1%;
+    position: relative;
+    top: 19%;
+    left: 54%;
+    text-align: center;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 99% 100%;
+    background-image: url("krug-20.png");
+}
+#adresa{
+    top: 32%;
+    width: 2%;
+    height: 3%;
+    left: 43%;
+    margin-right: 1%;
+    position: relative;
+}
+#text_adresa{
+    color: #585b72;
+    font-family: 'Otomanopee One', sans-serif;
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    top: 33%;
+    left: 43%;
+}
+#mail{
+    top: 25%;
+    width: 2%;
+    height: 3%;
+    left: 10%;
+    margin-right: 1%;
+    position: relative;
+}
+#tel{
+    top: 19%;
+    width: 2%;
+    height: 3%;
+    left: -22%;
+    margin-right: 1%;
+    position: relative;
+}
+#insta{
+    background-size: 100% 100%;
+    background-position: 0 0;
+    display: inline-block;
+    background-image: url(contact-25.png);
+    background-repeat: no-repeat;
+    top: 39%;
+    width: 2%;
+    height: 3%;
+    left: 47%;
+    margin-right: 1%;
+    position: relative;
+}
+#fb{
+    background-size: 100% 100%;
+    background-position: 0 0;
+    display: inline-block;
+    background-image: url(contact-26.png);
+    background-repeat: no-repeat;
+    top: 33%;
+    width: 2%;
+    height: 3%;
+    left: 12%;
+    margin-right: 1%;
+    position: relative;
+}
+#copy{
+    top: 53%;
+    width: 2%;
+    height: 3%;
+    left: -25%;
+    margin-right: 1%;
+    position: relative;
+}
+#text_mail{
+    color: #585b72;
+    font-family: 'Otomanopee One', sans-serif;
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    top: 24%;
+    left: 10%;
+}
+#text_tel{
+    color: #585b72;
+    font-family: 'Otomanopee One', sans-serif;
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    top: 18%;
+    left: -22%;
+}
+#text_insta{
+    color: #585b72;
+    font-family: 'Otomanopee One', sans-serif;
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    top: 38%;
+    left: 47%;
+}
+#text_fb{
+    color: #585b72;
+    font-family: 'Otomanopee One', sans-serif;
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    top: 32%;
+    left: 12%;
+}
+#text_copy{
+    color: #585b72;
+    font-family: 'Otomanopee One', sans-serif;
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    top: 52%;
+    left: -25%;
+
+}
